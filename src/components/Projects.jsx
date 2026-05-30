@@ -4,12 +4,11 @@ export default function Projects() {
   const projects = [
     {
       id: "01",
-      name: "HRISync: Enterprise HR Data Syncer",
-      desc: "Sinkronisasi otomatis data karyawan terdistribusi antara Laravel API, Supabase DB, dan Google Sheets secara real-time via webhook n8n.",
+      name: "HRISync",
+      desc: "Solusi digital modern yang dirancang untuk menyederhanakan dan mengintegrasikan seluruh ekosistem manajemen sumber daya manusia (HR). Aplikasi ini mengubah proses administrasi yang manual menjadi otomatis, cepat, dan efisien.",
       tech: [
         { name: "React.js", category: "frontend" },
         { name: "Laravel", category: "backend" },
-        { name: "n8n", category: "automation" },
         { name: "MySQL", category: "database" }
       ],
       link: "https://github.com/Ryandra-TI01/HRIS-frontend"
@@ -86,7 +85,7 @@ export default function Projects() {
                   {project.name}
                 </h3>
 
-                <p className="text-sm text-zen-slate font-sans leading-relaxed mb-6 line-clamp-2">
+                <p className="text-sm text-zen-slate font-sans leading-relaxed mb-6 line-clamp-2 group-hover:line-clamp-none transition-all duration-300">
                   {project.desc}
                 </p>
 
