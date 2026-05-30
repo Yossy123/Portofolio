@@ -42,12 +42,12 @@ export default function HeroSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4 border-t border-zen-border/40">
             {/* English Description */}
             <p className="text-base text-zen-slate font-sans leading-relaxed">
-              I build robust React & Laravel web solutions and connect them seamlessly to automated pipelines using n8n. I design quiet systems that reduce friction and do the hard work in the background.
+              Experienced in fullstack web development with React & Laravel, and skilled in workflow automation using n8n. I craft clean, functional digital solutions and streamline repetitive processes into efficient automated flows.
             </p>
             {/* Japanese Description */}
             <div className="space-y-2">
               <p className="text-sm text-zen-sumi/80 font-serif leading-relaxed tracking-wide">
-                「複雑さを削ぎ落とし, シンプルな設計を。ReactとLaravelによる洗練されたウェブ開発と, n8nによる自動化フローで業務プロセスを静かに最適化します。」
+                「ReactとLaravelによるフルスタックWeb開発を学び, n8nによるワークフロー自動化のスキルを習得。クリーンなデジタルソリューションと効率的な自動化を追求しています。」
               </p>
               <p className="text-[10px] font-mono text-zen-slate tracking-widest uppercase">
                 // Simplicity. Automation. Integrity.
