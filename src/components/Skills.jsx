@@ -6,7 +6,7 @@ export default function Skills() {
     { name: "Tailwind CSS", desc: "Desain antarmuka responsif dengan utilitas kelas yang bersih dan estetis." },
     { name: "Laravel", desc: "Backend tangguh berbasis MVC dengan keamanan tinggi dan API bersih." },
     { name: "Node.js", desc: "Runtime JavaScript berkinerja tinggi untuk layanan mikro dan skrip server." },
-    { name: "Supabase / SQL", desc: "Basis data relasional dengan otentikasi real-time dan query teroptimasi." }
+    { name: "MariaDB / MySQL", desc: "Basis data relasional open-source dengan performa tinggi dan query teroptimasi." }
   ];
 
   const automationSkills = [
