@@ -33,14 +33,14 @@ export default function Projects() {
   const getBadgeStyles = (category) => {
     switch (category) {
       case 'frontend':
-        return 'bg-[#2A1F1E] text-[#D4615A]'; // Dark crimson tint
+        return 'bg-[#1F1520] text-[#E8734A]'; // Comet orange tint
       case 'automation':
-        return 'bg-[#1E2A1F] text-[#7FA882]'; // Dark sage tint
+        return 'bg-[#0F2028] text-[#4ECDC4]'; // Aurora teal tint
       case 'backend':
       case 'database':
-        return 'bg-[#1A2230] text-[#6B8FAD]'; // Dark slate-blue tint
+        return 'bg-[#101830] text-[#6B8FAD]'; // Twilight blue tint
       default:
-        return 'bg-[#252320] text-[#9B9790]'; // Dark neutral tint
+        return 'bg-[#151A30] text-[#8B9CC0]'; // Muted twilight tint
     }
   };
 
@@ -51,6 +51,9 @@ export default function Projects() {
       <div className="absolute right-12 bottom-8 text-[12vw] font-serif text-zen-sumi/[0.04] select-none pointer-events-none tracking-widest font-light">
         作品集
       </div>
+
+      {/* Decorative comet glow */}
+      <div className="absolute top-[10%] left-[5%] w-72 h-72 rounded-full bg-zen-crimson/[0.04] blur-3xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-8 sm:px-12 relative z-10">
 
@@ -77,7 +80,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-zen-card border border-zen-border rounded-sm p-8 flex flex-col justify-between min-h-[320px] transition-all duration-500 ease-out hover:border-zen-crimson hover:-translate-y-1 hover:shadow-[0_12px_24px_-10px_rgba(212,97,90,0.12)] group"
+              className="bg-zen-card border border-zen-border rounded-sm p-8 flex flex-col justify-between min-h-[320px] transition-all duration-500 ease-out hover:border-zen-crimson hover:-translate-y-1 hover:shadow-comet group"
             >
               <div>
                 <span className="block font-serif text-sm text-zen-crimson/65 italic font-light mb-4">

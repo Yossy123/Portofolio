@@ -23,6 +23,10 @@ export default function Contact() {
         一期一会
       </div>
 
+      {/* Decorative aurora glow */}
+      <div className="absolute top-[20%] right-[10%] w-80 h-80 rounded-full bg-zen-sage/[0.04] blur-3xl pointer-events-none"></div>
+      <div className="absolute bottom-[10%] left-[5%] w-64 h-64 rounded-full bg-zen-crimson/[0.03] blur-3xl pointer-events-none"></div>
+
       <div className="max-w-7xl mx-auto px-8 sm:px-12 relative z-10">
 
         {/* Section Header */}
@@ -77,9 +81,9 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* RIGHT: Minimalist Ink Form (7 Columns) */}
+          {/* RIGHT: Minimalist Contact Form (7 Columns) */}
           <div className="lg:col-span-7 bg-zen-card border border-zen-border rounded-sm p-8 sm:p-10 relative">
-            {/* Soft decorative grid corner line */}
+            {/* Soft decorative corner line — comet accent */}
             <span className="absolute top-0 right-0 w-3 h-3 border-t border-r border-zen-crimson/40"></span>
 
             <form onSubmit={handleSubmit} className="space-y-8">

@@ -23,6 +23,10 @@ export default function Skills() {
         技術力
       </div>
 
+      {/* Subtle aurora glow decoration */}
+      <div className="absolute top-0 right-0 w-80 h-80 rounded-full bg-zen-sage/[0.03] blur-3xl pointer-events-none"></div>
+      <div className="absolute bottom-10 left-[20%] w-64 h-64 rounded-full bg-zen-crimson/[0.03] blur-3xl pointer-events-none"></div>
+
       <div className="max-w-7xl mx-auto px-8 sm:px-12 relative z-10">
         
         {/* Section Header */}
@@ -113,31 +117,31 @@ export default function Skills() {
               <div className="w-full h-32 flex justify-center items-center mt-3">
                 <svg className="w-full h-full max-w-[280px]" viewBox="0 0 200 100">
                   {/* Grid Lines mockup */}
-                  <line x1="10" y1="50" x2="190" y2="50" stroke="#2A2825" strokeWidth="0.5" strokeDasharray="3 3" />
-                  <line x1="50" y1="10" x2="50" y2="90" stroke="#2A2825" strokeWidth="0.5" strokeDasharray="3 3" />
-                  <line x1="150" y1="10" x2="150" y2="90" stroke="#2A2825" strokeWidth="0.5" strokeDasharray="3 3" />
+                  <line x1="10" y1="50" x2="190" y2="50" stroke="#1A2240" strokeWidth="0.5" strokeDasharray="3 3" />
+                  <line x1="50" y1="10" x2="50" y2="90" stroke="#1A2240" strokeWidth="0.5" strokeDasharray="3 3" />
+                  <line x1="150" y1="10" x2="150" y2="90" stroke="#1A2240" strokeWidth="0.5" strokeDasharray="3 3" />
                   
                   {/* Webhook Node (Trigger) */}
-                  <rect x="25" y="38" width="24" height="24" rx="2" fill="#1A1917" stroke="#7FA882" strokeWidth="1" />
-                  <circle cx="37" cy="50" r="3" fill="#7FA882" className="animate-pulse" />
-                  <text x="37" y="72" fontSize="5" fontFamily="monospace" fill="#9B9790" textAnchor="middle">Webhook</text>
+                  <rect x="25" y="38" width="24" height="24" rx="2" fill="#111833" stroke="#4ECDC4" strokeWidth="1" />
+                  <circle cx="37" cy="50" r="3" fill="#4ECDC4" className="animate-pulse" />
+                  <text x="37" y="72" fontSize="5" fontFamily="monospace" fill="#8B9CC0" textAnchor="middle">Webhook</text>
                   
                   {/* Connector 1 */}
-                  <line x1="49" y1="50" x2="85" y2="50" stroke="#7FA882" strokeWidth="0.75" strokeDasharray="2 1" />
+                  <line x1="49" y1="50" x2="85" y2="50" stroke="#4ECDC4" strokeWidth="0.75" strokeDasharray="2 1" />
                   
                   {/* n8n Parser Node (Logic Node) */}
-                  <rect x="85" y="38" width="30" height="24" rx="2" fill="#1A1917" stroke="#D4615A" strokeWidth="1" />
-                  <path d="M 97 45 L 103 50 L 97 55" fill="none" stroke="#D4615A" strokeWidth="0.75" />
-                  <text x="100" y="72" fontSize="5" fontFamily="monospace" fill="#9B9790" textAnchor="middle">n8n_Flow</text>
+                  <rect x="85" y="38" width="30" height="24" rx="2" fill="#111833" stroke="#E8734A" strokeWidth="1" />
+                  <path d="M 97 45 L 103 50 L 97 55" fill="none" stroke="#E8734A" strokeWidth="0.75" />
+                  <text x="100" y="72" fontSize="5" fontFamily="monospace" fill="#8B9CC0" textAnchor="middle">n8n_Flow</text>
                   
                   {/* Connector 2 */}
-                  <line x1="115" y1="50" x2="151" y2="50" stroke="#7FA882" strokeWidth="0.75" strokeDasharray="2 1" />
+                  <line x1="115" y1="50" x2="151" y2="50" stroke="#4ECDC4" strokeWidth="0.75" strokeDasharray="2 1" />
                   
                   {/* Database Node (Output Node) */}
-                  <rect x="151" y="38" width="24" height="24" rx="2" fill="#1A1917" stroke="#6B8FAD" strokeWidth="1" />
-                  <rect x="157" y="44" width="12" height="4" rx="0.5" fill="#1E2A36" stroke="#6B8FAD" strokeWidth="0.5" />
-                  <rect x="157" y="50" width="12" height="4" rx="0.5" fill="#1E2A36" stroke="#6B8FAD" strokeWidth="0.5" />
-                  <text x="163" y="72" fontSize="5" fontFamily="monospace" fill="#9B9790" textAnchor="middle">Database</text>
+                  <rect x="151" y="38" width="24" height="24" rx="2" fill="#111833" stroke="#6B8FAD" strokeWidth="1" />
+                  <rect x="157" y="44" width="12" height="4" rx="0.5" fill="#0D1229" stroke="#6B8FAD" strokeWidth="0.5" />
+                  <rect x="157" y="50" width="12" height="4" rx="0.5" fill="#0D1229" stroke="#6B8FAD" strokeWidth="0.5" />
+                  <text x="163" y="72" fontSize="5" fontFamily="monospace" fill="#8B9CC0" textAnchor="middle">Database</text>
                 </svg>
               </div>
 

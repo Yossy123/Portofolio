@@ -26,7 +26,7 @@ function App() {
       <Contact />
 
       {/* 6. AESTHETIC FOOTER */}
-      <footer className="w-full bg-[#FCFAF7] py-12 text-center text-[10px] font-mono text-zen-slate border-t border-zen-border">
+      <footer className="w-full bg-zen-surface py-12 text-center text-[10px] font-mono text-zen-slate border-t border-zen-border">
         <div className="max-w-7xl mx-auto px-8 sm:px-12 flex flex-col sm:flex-row justify-between items-center gap-4">
           <span className="tracking-widest uppercase">
             © 2026 YOSSY INDRA KUSUMA

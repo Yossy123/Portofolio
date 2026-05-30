@@ -11,20 +11,36 @@ export default function HeroSection() {
   return (
     <section className="relative min-h-[85vh] w-full flex items-center bg-zen-washi py-20 overflow-hidden">
       
-      {/* Decorative vertical Kanji text watermark representing 'Silence & Action' (静と動) */}
-      <div className="absolute right-12 top-24 writing-mode-vertical text-[6vw] font-serif text-zen-sumi/[0.06] select-none pointer-events-none tracking-[0.4em] font-light">
-        静と動
+      {/* Kimi no Nawa starfield background */}
+      <div className="absolute inset-0 pointer-events-none">
+        {/* Comet glow - upper right */}
+        <div className="absolute top-[10%] right-[15%] w-96 h-96 rounded-full bg-zen-crimson/[0.06] blur-3xl animate-float"></div>
+        {/* Aurora glow - lower left */}
+        <div className="absolute bottom-[20%] left-[10%] w-64 h-64 rounded-full bg-zen-sage/[0.04] blur-2xl"></div>
+        {/* Twilight gradient overlay */}
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-transparent via-transparent to-zen-surface/30"></div>
+        
+        {/* Decorative stars */}
+        <div className="absolute top-[12%] left-[20%] w-1 h-1 rounded-full bg-white/60 animate-twinkle"></div>
+        <div className="absolute top-[8%] right-[30%] w-0.5 h-0.5 rounded-full bg-white/40 animate-twinkle" style={{animationDelay: '1s'}}></div>
+        <div className="absolute top-[25%] left-[45%] w-1.5 h-1.5 rounded-full bg-zen-crimson/40 animate-twinkle" style={{animationDelay: '0.5s'}}></div>
+        <div className="absolute top-[15%] right-[45%] w-0.5 h-0.5 rounded-full bg-white/50 animate-twinkle" style={{animationDelay: '2s'}}></div>
+        <div className="absolute top-[5%] left-[60%] w-1 h-1 rounded-full bg-zen-sage/30 animate-twinkle" style={{animationDelay: '1.5s'}}></div>
+        <div className="absolute top-[30%] right-[10%] w-0.5 h-0.5 rounded-full bg-white/30 animate-twinkle" style={{animationDelay: '0.8s'}}></div>
+        <div className="absolute top-[18%] left-[75%] w-1 h-1 rounded-full bg-white/50 animate-twinkle" style={{animationDelay: '2.5s'}}></div>
       </div>
 
-      {/* Decorative clean red circle representing the rising sun (Hinomaru) - highly muted and abstract */}
-      <div className="absolute left-[8%] bottom-[15%] w-48 h-48 rounded-full bg-zen-crimson/[0.04] pointer-events-none blur-xl"></div>
+      {/* Decorative vertical Kanji text watermark — 'Connection' (結び - Musubi) from Kimi no Nawa */}
+      <div className="absolute right-12 top-24 writing-mode-vertical text-[6vw] font-serif text-zen-sumi/[0.06] select-none pointer-events-none tracking-[0.4em] font-light">
+        結び
+      </div>
 
       <div className="max-w-7xl mx-auto px-8 sm:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
         
         {/* Main Content (Spans 8 columns on desktop) */}
         <div className="lg:col-span-9 space-y-8">
           
-          {/* Subheading with Crimson accent */}
+          {/* Subheading with Comet accent */}
           <div className="flex items-center gap-3">
             <span className="h-[1px] w-8 bg-zen-crimson/80"></span>
             <span className="font-mono text-xs text-zen-crimson tracking-[0.25em] uppercase font-semibold">
@@ -73,7 +89,7 @@ export default function HeroSection() {
 
         </div>
 
-        {/* Vertical line and subtle Zen graphic (Spans 3 columns on desktop) */}
+        {/* Vertical line and subtle comet graphic (Spans 3 columns on desktop) */}
         <div className="hidden lg:col-span-3 lg:flex flex-col items-center justify-center h-full">
           <div className="h-44 w-[1px] bg-gradient-to-b from-zen-border via-zen-crimson/50 to-transparent"></div>
           <span className="font-serif text-[10px] tracking-[0.5em] text-zen-slate/60 uppercase writing-mode-vertical my-6">
