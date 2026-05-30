@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import MusicPlayer from './components/MusicPlayer';
 import './App.css';
 
 function App() {
@@ -36,6 +37,9 @@ function App() {
           </span>
         </div>
       </footer>
+
+      {/* 7. FLOATING MUSIC PLAYER — Kimi no Nawa OST */}
+      <MusicPlayer />
 
     </div>
   );
