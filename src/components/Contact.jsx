@@ -35,7 +35,7 @@ export default function Contact() {
             <div className="flex items-center gap-3">
               <span className="h-[1px] w-8 bg-zen-crimson/80"></span>
               <span className="font-mono text-xs text-zen-crimson tracking-[0.25em] uppercase font-semibold">
-                05. Contact // お問い合わせ
+                04. Contact // お問い合わせ
               </span>
             </div>
             <h2 className="text-3xl sm:text-4xl font-serif text-zen-sumi tracking-wide font-normal">
