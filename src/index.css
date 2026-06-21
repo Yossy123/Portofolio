@@ -6,28 +6,28 @@
 
 @layer base {
   body {
-    background-color: #070D1E; /* Deep indigo — 夏の夜空 */
-    color: #E8DDD0; /* Warm washi paper — 和紙 */
+    background-color: #0F1E3D; /* Deep ocean blue — 海の青 */
+    color: #EDE8E0; /* Warm cloud white — 雲白 */
     font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Natsu Matsuri themed scrollbar */
+  /* Japanese summer sea themed scrollbar */
   ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
   }
   ::-webkit-scrollbar-track {
-    background: #070D1E;
+    background: #0F1E3D;
   }
   ::-webkit-scrollbar-thumb {
-    background: #15203A;
+    background: #1E3058;
     border-radius: 3px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #D4944A; /* Lantern gold on hover — 提灯 */
+    background: #E89B3C; /* Sunlit gold on hover — 陽光 */
   }
 }
 

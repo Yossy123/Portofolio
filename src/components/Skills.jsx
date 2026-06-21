@@ -117,31 +117,31 @@ export default function Skills() {
               <div className="w-full h-32 flex justify-center items-center mt-3">
                 <svg className="w-full h-full max-w-[280px]" viewBox="0 0 200 100">
                   {/* Grid Lines mockup */}
-                  <line x1="10" y1="50" x2="190" y2="50" stroke="#15203A" strokeWidth="0.5" strokeDasharray="3 3" />
-                  <line x1="50" y1="10" x2="50" y2="90" stroke="#15203A" strokeWidth="0.5" strokeDasharray="3 3" />
-                  <line x1="150" y1="10" x2="150" y2="90" stroke="#15203A" strokeWidth="0.5" strokeDasharray="3 3" />
+                  <line x1="10" y1="50" x2="190" y2="50" stroke="#1E3058" strokeWidth="0.5" strokeDasharray="3 3" />
+                  <line x1="50" y1="10" x2="50" y2="90" stroke="#1E3058" strokeWidth="0.5" strokeDasharray="3 3" />
+                  <line x1="150" y1="10" x2="150" y2="90" stroke="#1E3058" strokeWidth="0.5" strokeDasharray="3 3" />
 
                   {/* Webhook Node (Trigger) */}
-                  <rect x="25" y="38" width="24" height="24" rx="2" fill="#0E1A35" stroke="#B87DA0" strokeWidth="1" />
-                  <circle cx="37" cy="50" r="3" fill="#B87DA0" className="animate-pulse" />
-                  <text x="37" y="72" fontSize="5" fontFamily="monospace" fill="#7B8FB8" textAnchor="middle">Webhook</text>
+                  <rect x="25" y="38" width="24" height="24" rx="2" fill="#152847" stroke="#C48AB8" strokeWidth="1" />
+                  <circle cx="37" cy="50" r="3" fill="#C48AB8" className="animate-pulse" />
+                  <text x="37" y="72" fontSize="5" fontFamily="monospace" fill="#8BA3C8" textAnchor="middle">Webhook</text>
 
                   {/* Connector 1 */}
-                  <line x1="49" y1="50" x2="85" y2="50" stroke="#B87DA0" strokeWidth="0.75" strokeDasharray="2 1" />
+                  <line x1="49" y1="50" x2="85" y2="50" stroke="#C48AB8" strokeWidth="0.75" strokeDasharray="2 1" />
 
                   {/* n8n Parser Node (Logic Node) */}
-                  <rect x="85" y="38" width="30" height="24" rx="2" fill="#0E1A35" stroke="#D4944A" strokeWidth="1" />
-                  <path d="M 97 45 L 103 50 L 97 55" fill="none" stroke="#D4944A" strokeWidth="0.75" />
-                  <text x="100" y="72" fontSize="5" fontFamily="monospace" fill="#7B8FB8" textAnchor="middle">n8n_Flow</text>
+                  <rect x="85" y="38" width="30" height="24" rx="2" fill="#152847" stroke="#E89B3C" strokeWidth="1" />
+                  <path d="M 97 45 L 103 50 L 97 55" fill="none" stroke="#E89B3C" strokeWidth="0.75" />
+                  <text x="100" y="72" fontSize="5" fontFamily="monospace" fill="#8BA3C8" textAnchor="middle">n8n_Flow</text>
 
                   {/* Connector 2 */}
-                  <line x1="115" y1="50" x2="151" y2="50" stroke="#B87DA0" strokeWidth="0.75" strokeDasharray="2 1" />
+                  <line x1="115" y1="50" x2="151" y2="50" stroke="#C48AB8" strokeWidth="0.75" strokeDasharray="2 1" />
 
                   {/* Database Node (Output Node) */}
-                  <rect x="151" y="38" width="24" height="24" rx="2" fill="#0E1A35" stroke="#7B8FB8" strokeWidth="1" />
-                  <rect x="157" y="44" width="12" height="4" rx="0.5" fill="#0A1425" stroke="#7B8FB8" strokeWidth="0.5" />
-                  <rect x="157" y="50" width="12" height="4" rx="0.5" fill="#0A1425" stroke="#7B8FB8" strokeWidth="0.5" />
-                  <text x="163" y="72" fontSize="5" fontFamily="monospace" fill="#7B8FB8" textAnchor="middle">Database</text>
+                  <rect x="151" y="38" width="24" height="24" rx="2" fill="#152847" stroke="#8BA3C8" strokeWidth="1" />
+                  <rect x="157" y="44" width="12" height="4" rx="0.5" fill="#111F3A" stroke="#8BA3C8" strokeWidth="0.5" />
+                  <rect x="157" y="50" width="12" height="4" rx="0.5" fill="#111F3A" stroke="#8BA3C8" strokeWidth="0.5" />
+                  <text x="163" y="72" fontSize="5" fontFamily="monospace" fill="#8BA3C8" textAnchor="middle">Database</text>
                 </svg>
               </div>
 
