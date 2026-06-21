@@ -85,7 +85,7 @@ export default function MusicPlayer() {
       {/* ====== SPLASH SCREEN OVERLAY ====== */}
       {showSplash && (
         <div
-          className={`fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#060a1a] transition-all duration-700 ${
+          className={`fixed inset-0 z-[100] flex flex-col items-center justify-center bg-[#070D1E] transition-all duration-700 ${
             splashFading ? 'opacity-0 scale-105' : 'opacity-100 scale-100'
           }`}
         >
@@ -107,10 +107,10 @@ export default function MusicPlayer() {
               />
             ))}
             {/* Comet glow */}
-            <div className="absolute top-[20%] right-[20%] w-96 h-96 rounded-full bg-[#E8734A]/[0.08] blur-3xl"></div>
-            <div className="absolute bottom-[30%] left-[15%] w-72 h-72 rounded-full bg-[#4ECDC4]/[0.05] blur-3xl"></div>
+            <div className="absolute top-[20%] right-[20%] w-96 h-96 rounded-full bg-[#D4944A]/[0.08] blur-3xl"></div>
+            <div className="absolute bottom-[30%] left-[15%] w-72 h-72 rounded-full bg-[#B87DA0]/[0.05] blur-3xl"></div>
             {/* Twilight gradient at bottom */}
-            <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#1A1B4B]/30 to-transparent"></div>
+            <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#15203A]/30 to-transparent"></div>
           </div>
 
           {/* Content */}
@@ -122,38 +122,38 @@ export default function MusicPlayer() {
 
             {/* Main title */}
             <div className="space-y-3">
-              <h1 className="text-3xl sm:text-4xl font-serif text-[#F0E6D3] font-light tracking-[0.15em]">
+              <h1 className="text-3xl sm:text-4xl font-serif text-[#E8DDD0] font-light tracking-[0.15em]">
                 YOSSY INDRA KUSUMA
               </h1>
               <div className="flex items-center justify-center gap-3">
-                <span className="h-[1px] w-8 bg-[#E8734A]/60"></span>
-                <span className="font-mono text-[10px] text-[#8B9CC0] tracking-[0.3em] uppercase">
+                <span className="h-[1px] w-8 bg-[#D4944A]/60"></span>
+                <span className="font-mono text-[10px] text-[#7B8FB8] tracking-[0.3em] uppercase">
                   ポートフォリオ
                 </span>
-                <span className="h-[1px] w-8 bg-[#E8734A]/60"></span>
+                <span className="h-[1px] w-8 bg-[#D4944A]/60"></span>
               </div>
             </div>
 
             {/* Enter button */}
             <button
               onClick={handleEnterSite}
-              className="group relative mt-6 px-10 py-4 rounded-full border border-[#E8734A]/40 bg-transparent hover:bg-[#E8734A]/10 hover:border-[#E8734A]/80 transition-all duration-500 active:scale-95"
+              className="group relative mt-6 px-10 py-4 rounded-full border border-[#D4944A]/40 bg-transparent hover:bg-[#D4944A]/10 hover:border-[#D4944A]/80 transition-all duration-500 active:scale-95"
             >
               {/* Glow behind button */}
-              <div className="absolute -inset-1 rounded-full bg-[#E8734A]/10 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-              
+              <div className="absolute -inset-1 rounded-full bg-[#D4944A]/10 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+
               <div className="relative flex items-center gap-3">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-[#E8734A]">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" className="text-[#D4944A]">
                   <path d="M8 5.14v13.72a1 1 0 001.5.86l11.04-6.86a1 1 0 000-1.72L9.5 4.28a1 1 0 00-1.5.86z" fill="currentColor" />
                 </svg>
-                <span className="font-mono text-xs text-[#F0E6D3] tracking-[0.25em] uppercase">
+                <span className="font-mono text-xs text-[#E8DDD0] tracking-[0.25em] uppercase">
                   Enter Site
                 </span>
               </div>
             </button>
 
             {/* Music hint */}
-            <p className="font-mono text-[9px] text-[#8B9CC0]/60 tracking-[0.2em] uppercase mt-2 animate-pulse">
+            <p className="font-mono text-[9px] text-[#7B8FB8]/60 tracking-[0.2em] uppercase mt-2 animate-pulse">
               ♪ BGM will play automatically
             </p>
           </div>
@@ -186,7 +186,7 @@ export default function MusicPlayer() {
                   [&::-webkit-slider-thumb]:h-3
                   [&::-webkit-slider-thumb]:rounded-full
                   [&::-webkit-slider-thumb]:bg-zen-crimson
-                  [&::-webkit-slider-thumb]:shadow-[0_0_8px_rgba(232,115,74,0.5)]
+                  [&::-webkit-slider-thumb]:shadow-[0_0_8px_rgba(212,148,74,0.5)]
                   [&::-webkit-slider-thumb]:cursor-pointer
                   [&::-webkit-slider-thumb]:transition-all
                   [&::-webkit-slider-thumb]:duration-200

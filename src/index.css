@@ -6,28 +6,28 @@
 
 @layer base {
   body {
-    background-color: #0B1026; /* Deep twilight sky */
-    color: #F0E6D3; /* Warm golden hour cream */
+    background-color: #070D1E; /* Deep indigo — 夏の夜空 */
+    color: #E8DDD0; /* Warm washi paper — 和紙 */
     font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Kimi no Nawa themed scrollbar */
+  /* Natsu Matsuri themed scrollbar */
   ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
   }
   ::-webkit-scrollbar-track {
-    background: #0B1026;
+    background: #070D1E;
   }
   ::-webkit-scrollbar-thumb {
-    background: #1A2240;
+    background: #15203A;
     border-radius: 3px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: #E8734A; /* Comet orange on hover */
+    background: #D4944A; /* Lantern gold on hover — 提灯 */
   }
 }
 

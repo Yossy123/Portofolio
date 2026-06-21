@@ -8,14 +8,14 @@ export default {
     extend: {
       colors: {
         zen: {
-          washi: '#0B1026',      // Deep twilight sky (Itomori night)
-          sumi: '#F0E6D3',       // Warm cream text (golden hour glow)
-          slate: '#8B9CC0',      // Muted twilight blue for secondary text
-          crimson: '#E8734A',    // Comet Tiamat orange-coral
-          sage: '#4ECDC4',       // Aurora teal (supernatural glow)
-          border: '#1A2240',     // Dark navy border
-          card: '#111833',       // Elevated deep surface
-          surface: '#0D1229',    // Alternate deep section bg
+          washi: '#070D1E',      // Deep indigo-black (夏の夜空 — summer night sky)
+          sumi: '#E8DDD0',       // Warm washi paper (和紙)
+          slate: '#7B8FB8',      // Moonlit blue-grey (月明かり)
+          crimson: '#D4944A',    // Lantern amber-gold (提灯 — natsu matsuri)
+          sage: '#B87DA0',       // Soft sakura pink (桜)
+          border: '#15203A',     // Indigo-navy border (海の闇)
+          card: '#0E1A35',       // Deep blue card surface
+          surface: '#0A1425',    // Ocean-deep section bg
         }
       },
       fontFamily: {
@@ -24,13 +24,13 @@ export default {
         mono: ['"JetBrains Mono"', 'monospace'],
       },
       backgroundImage: {
-        'comet-glow': 'radial-gradient(ellipse at 70% 30%, rgba(232, 115, 74, 0.08) 0%, transparent 60%)',
-        'aurora-glow': 'radial-gradient(ellipse at 30% 70%, rgba(78, 205, 196, 0.06) 0%, transparent 60%)',
-        'twilight-gradient': 'linear-gradient(180deg, #0B1026 0%, #1A1B4B 40%, #3D2B5A 70%, #E8734A 100%)',
+        'comet-glow': 'radial-gradient(ellipse at 70% 30%, rgba(212, 148, 74, 0.08) 0%, transparent 60%)',
+        'aurora-glow': 'radial-gradient(ellipse at 30% 70%, rgba(184, 125, 160, 0.06) 0%, transparent 60%)',
+        'twilight-gradient': 'linear-gradient(180deg, #070D1E 0%, #15203A 40%, #2A3B6A 70%, #D4944A 100%)',
       },
       boxShadow: {
-        'comet': '0 12px 24px -10px rgba(232, 115, 74, 0.15)',
-        'aurora': '0 12px 24px -10px rgba(78, 205, 196, 0.12)',
+        'comet': '0 12px 24px -10px rgba(212, 148, 74, 0.15)',
+        'aurora': '0 12px 24px -10px rgba(184, 125, 160, 0.12)',
       },
       animation: {
         'twinkle': 'twinkle 3s ease-in-out infinite alternate',

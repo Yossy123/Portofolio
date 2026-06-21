@@ -33,14 +33,14 @@ export default function Projects() {
   const getBadgeStyles = (category) => {
     switch (category) {
       case 'frontend':
-        return 'bg-[#1F1520] text-[#E8734A]'; // Comet orange tint
+        return 'bg-[#16151A] text-[#D4944A]'; // Lantern gold tint
       case 'automation':
-        return 'bg-[#0F2028] text-[#4ECDC4]'; // Aurora teal tint
+        return 'bg-[#14121A] text-[#B87DA0]'; // Sakura pink tint
       case 'backend':
       case 'database':
-        return 'bg-[#101830] text-[#6B8FAD]'; // Twilight blue tint
+        return 'bg-[#0E1A35] text-[#7B8FB8]'; // Moonlit blue tint
       default:
-        return 'bg-[#151A30] text-[#8B9CC0]'; // Muted twilight tint
+        return 'bg-[#0A1425] text-[#7B8FB8]'; // Muted twilight tint
     }
   };
 
